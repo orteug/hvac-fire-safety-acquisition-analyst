@@ -77,6 +77,8 @@ When a deal screen returns a `PURSUE` verdict, always add a brief competitive bu
 
 Use `reference/pe-landscape.md` to calibrate. A business doing $800K+ SDE with strong inspection contracts and clean books in a market where Pye-Barker, Sciens, or Apex are active is a PE-competitive deal. Treat it accordingly.
 
+**Monitoring Book Flag — F&LS Standing Rule:** Any F&LS deal containing $5K+ in monthly MRR must include a dedicated note in the PE Competitive Context section assessing whether the monitoring book alone could be of strategic interest to an established local platform — independent of whether the full business meets PE acquisition criteria. This applies on ALL verdict types including PASS and PROCEED WITH CAUTION. A deal that fails as a full acquisition may still contain a monitoring book worth $175K–$450K that Pye-Barker, Sciens, or a regional platform would pay to absorb into existing infrastructure.
+
 ---
 
 ## Market Intelligence Currency Check

@@ -43,6 +43,7 @@ Private equity has been aggressively consolidating HVAC and Fire & Life Safety b
 - **Acquisition approach:** Direct owner outreach, broker relationships; very fast process
 - **Multiple range:** 5–7x EBITDA for well-contracted inspection businesses
 - **Operator-buyer edge:** Pye-Barker wins on price. Compete on seller relationship and speed to LOI.
+- **Monitoring book acquisitions:** Pye-Barker will acquire standalone monitoring contract portfolios as strategic add-ons to existing local operations — even when the parent business doesn't meet full tuck-in criteria. If a deal has $5K+ MRR with clean contracts, the monitoring book may have a buyer independent of the overall business quality.
 
 ### Sciens Building Solutions
 - **Backed by:** Investcorp
@@ -50,6 +51,7 @@ Private equity has been aggressively consolidating HVAC and Fire & Life Safety b
 - **Target profile:** $2M+ revenue, commercial accounts, technology-forward operations
 - **Multiple range:** 5–6.5x EBITDA
 - **Note:** Sciens is selective — smaller or more manual businesses are less likely to attract them
+- **Monitoring book acquisitions:** Sciens actively targets monitoring contract portfolios in their Northeast and Florida markets as density plays. A standalone monitoring book with $5K+ MRR in a Sciens-active geography is a strategic acquisition candidate regardless of the parent business's overall profile.
 
 ### APi Group (NYSE: APG)
 - **Public company roll-up:** Specialty contracting, including F&LS
