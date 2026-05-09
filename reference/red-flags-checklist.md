@@ -1,112 +1,91 @@
-> **Last Updated:** May 2026
-> **Usage:** Apply this checklist in every deal screen. Flags are ranked by severity. Three or more 🔴 flags = Pass unless deal structure can neutralize the risk.
-
----
-
 # Red Flags Checklist: HVAC & Fire Safety Acquisitions
 
-## 🔴 Deal-Killers (any one of these = restructure or pass)
+> **Last Updated:** May 2026
+> **Refresh Cadence:** Review when regulatory environment changes (EPA refrigerant rules, AHJ standards, SBA SOP updates) or when new deal patterns emerge.
 
-### Owner & Dependency
-- [ ] Owner is the primary or only technician, inspector, or salesperson
-- [ ] All key client relationships run through the owner personally, with no documented handoff path
-- [ ] Owner has <6 months willingness to stay post-close
-- [ ] No documented SOPs, processes, or training materials exist
-- [ ] Owner refuses to sign a non-compete for reasonable geography and duration (2–3 years, 50–100 mile radius)
-
-### Customer Concentration
-- [ ] Single customer represents >30% of revenue without a multi-year, transferable contract
-- [ ] Top 3 customers represent >50% of revenue with no formal agreements
-- [ ] Primary revenue relationship is a personal friendship with the owner — not a business contract
-
-### Financial Red Flags
-- [ ] Revenue declining >15% YOY for 2+ consecutive years with no credible external explanation
-- [ ] Asking price >5x SDE for HVAC (no platform premium justification)
-- [ ] Asking price >6x EBITDA for F&LS (without strong MRR/ARR base)
-- [ ] Owner cannot produce 2+ years of P&L or tax returns
-- [ ] EBITDA is heavily dependent on add-backs that don't survive QoE scrutiny
-
-### Legal & Compliance
-- [ ] Active litigation (customer, employee, vendor, or regulatory)
-- [ ] EPA refrigerant violations (Section 608 — commercial implications)
-- [ ] Unpermitted HVAC installations in jurisdictions with enforcement history
-- [ ] AHJ citations or loss of approval for Fire Safety inspection work
-- [ ] Unlicensed work in a state with mandatory contractor licensing
-- [ ] Unresolved workers' comp claim pattern (3+ claims in 3 years = systemic risk)
-
-### Staffing
-- [ ] Fewer than 2 certified technicians/inspectors, one of whom is the owner
-- [ ] All technicians are under 1 year tenure (churn signal or greenfield with no institutional knowledge)
-- [ ] NICET-certified inspector is the owner-only (F&LS: losing this person = losing AHJ acceptance)
+Use this checklist during initial deal review and early diligence. Flags are ranked by severity: 🔴 Deal-Killers, 🟡 Negotiation Points, 🟢 Monitor/Verify.
 
 ---
 
-## 🟡 Negotiate (flag, price into deal, or require structure to address)
+## 🔴 Deal-Killers (Stop and Reassess Before Proceeding)
 
-### Recurring Revenue Gaps
-- [ ] Service/maintenance agreement count below 100 (HVAC) or 30 (F&LS commercial)
-- [ ] Agreement renewal rate below 75%
-- [ ] Agreements are verbal or informal — no signed contracts on file
-- [ ] Auto-renewal clauses absent from maintenance agreements
+### Financial
+- [ ] EBITDA/SDE is self-reported with no supporting P&L documentation
+- [ ] Revenue is declining >15% YOY with no clear, verifiable explanation
+- [ ] Single customer accounts for >40% of revenue with no formal contract
+- [ ] DSCR falls below 1.15x at the asking price with standard SBA financing
+- [ ] Undisclosed liabilities or off-book expenses discovered during initial review
 
-### Owner Transition Risk
-- [ ] Owner willing to stay 6–12 months but not longer (manageable with earnout or consulting agreement)
-- [ ] Owner holds vendor relationships not yet transferred to staff
-- [ ] Owner is the face of the brand locally — known by name, not by company name
+### Operations & Legal
+- [ ] Active or pending litigation (customer, vendor, employee, regulatory)
+- [ ] EPA refrigerant violations or criminal history (HVAC)
+- [ ] AHJ citations for non-compliant work (Fire Safety) — especially if unresolved
+- [ ] Unlicensed contractor activity in a state that requires licensure
+- [ ] Workers' comp claims pattern suggesting systemic safety failures
 
-### Revenue Mix
-- [ ] >65% of revenue from new installations (project-dependent, not recurring)
-- [ ] Residential-only with no commercial maintenance base (single-season risk)
-- [ ] Geographic concentration: 80%+ of revenue from a single zip code or development
-
-### Financial Transparency
-- [ ] Only 1 year of financials available (ask for tax returns as backup)
-- [ ] EBITDA includes >20% in add-backs that require validation
-- [ ] Cash-basis accounting (normalize to accrual before comparison)
-- [ ] Owner salary significantly below or above market ($50K–$80K/yr range for working owner; adjust SDE accordingly)
-
-### Asset Condition
-- [ ] Fleet avg age 6–9 years (budget $30K–$50K/truck for near-term replacement)
-- [ ] Owned real property: must negotiate lease-back or separate the real estate transaction
-- [ ] Deferred equipment maintenance documented or suspected
-
-### Workforce
-- [ ] 1–2 key technicians without non-competes (structure retention bonuses at close)
-- [ ] Tech compensation below market rate (risk of post-close attrition)
-- [ ] No lead tech — owner is functional field supervisor
+### Owner Dependency
+- [ ] Owner is the only certified technician and refuses to stay post-close
+- [ ] All client relationships are personal (no contracts, no CRM, no systems)
+- [ ] Owner controls all vendor credit accounts with no business credit history
 
 ---
 
-## 🟢 Monitor (document, verify during diligence, track post-close)
+## 🟡 Negotiation Points (Material Risk — Address in Deal Structure)
 
-### Market & Competition
-- [ ] PE platform recently entered the market (timeline: push to LOI faster)
-- [ ] 1–2 new competitors entered the service area in the past 24 months
-- [ ] Local market consolidation underway — assess whether this target is acquisition-worthy before a platform acquires competitors first
+### Financial
+- [ ] SDE has large, hard-to-verify add-backs (personal vehicle, personal travel, family payroll)
+- [ ] Revenue is heavily project/install-based with <15% from recurring service
+- [ ] One-year spike in earnings with no clear driver
+- [ ] Accounts receivable aging >60 days on more than 20% of AR
+- [ ] Deferred maintenance on fleet or equipment with unknown replacement cost
 
-### Operational
-- [ ] Fleet approaching 5-year average (plan replacement capex in Year 2–3)
-- [ ] Software: using paper dispatching, QuickBooks only, or no field service management (FSM) tool — plan $15K–$40K for ServiceTitan or similar in Year 1
-- [ ] Seasonal cash flow concentration >70% in Q2/Q3 (HVAC) — verify working capital line available
+### Operations
+- [ ] No written service agreements — all maintenance is verbal or handshake
+- [ ] High technician turnover in the past 2 years (>30% annual)
+- [ ] CRM/dispatch system is Excel or paper-based (transition risk)
+- [ ] No documented SOPs for recurring processes (dispatch, invoicing, callbacks)
+- [ ] Real property is owner-occupied with no formal lease negotiated
+
+### Team & Key People
+- [ ] Only 1–2 certified technicians total (excluding owner)
+- [ ] No formal non-compete or key-person agreements with lead techs
+- [ ] Lead tech has been approached by a competitor or is known to be looking
+- [ ] Owner's #2 is a family member with no plan to stay post-sale
+
+### Market
+- [ ] A large regional HVAC chain or national F&LS company has recently entered the market
+- [ ] Service area overlaps with a well-capitalized competitor's core territory
+- [ ] New construction in the area has slowed, reducing install pipeline
+
+---
+
+## 🟢 Monitor / Verify Before Close
+
+### Financial
+- [ ] Revenue mix is shifting (e.g., residential to commercial) — understand why
+- [ ] Margins improved significantly in the last year — verify it's sustainable, not a one-time factor
+- [ ] Cash vs. accrual accounting — verify method and normalize accordingly
+
+### Operations
+- [ ] Fleet is aging but maintained — get an independent mechanic inspection on older units
+- [ ] Equipment/tools inventory hasn't been audited recently
+- [ ] Subcontractor usage is high — verify whether subs are classified correctly (1099 vs. W-2 risk)
 
 ### Customer
-- [ ] Top client at 15–25% of revenue with a signed but near-expiry contract — renew before or at close
-- [ ] Customer age skew (residential HVAC): if >60% of maintenance customers are 65+, natural churn accelerates
-- [ ] B2B commercial clients: verify payment terms and AR aging — slow pays signal relationship friction
+- [ ] Top 3–5 clients haven't been spoken to by anyone other than the owner — plan transition introductions
+- [ ] Online reviews have a pattern of recent complaints — understand root cause
+- [ ] Service area includes some accounts 60+ miles from home base — flag for efficiency analysis
 
 ### Regulatory
-- [ ] Refrigerant transition (R-22 phase-out → R-410A → R-454B): assess tech training readiness
-- [ ] F&LS: state inspection frequency rules changing — verify compliance calendar is current
-- [ ] Local AHJ relationship status: is company in good standing or has there been friction?
+- [ ] State contractor license is in owner's name (not business entity) — verify transferability
+- [ ] NICET certifications are held individually by owner or single inspector — verify replacement plan
+- [ ] Any grandfathered permits or approvals tied to the specific business owner
 
 ---
 
-## Checklist Usage Notes
+## How to Use This Checklist
 
-**Scoring guidance (for internal use):**
-- 0–1 🔴 + manageable 🟡: deal-viable, proceed to LOI
-- 2 🔴: restructure required before LOI (escrow, forgivable seller note, price reduction)
-- 3+ 🔴: Pass unless a single structural fix resolves all three (rare)
-- 5+ 🟡: negotiation workload is heavy; factor in deal cost and timeline risk
-
-**Do not use this checklist as a pass/fail score.** Context matters. A 🔴 owner-dependency flag in a 2-person F&LS inspection business with $200K MRR and a willing seller may be structured around. The same flag in a $3M HVAC install business with no team depth is non-negotiable.
+1. **Pre-LOI:** Run through Deal-Killers and Negotiation Points based on available information. If 2+ Deal-Killers appear, do not proceed to LOI without resolution.
+2. **LOI to Diligence:** Use full checklist as a structured due diligence driver. Each flag = a specific document request or question.
+3. **Deal Structure:** Use Negotiation Points to build protective terms into the deal — seller notes, earnouts, escrow holdbacks, transition agreements.
+4. **At Close:** Verify all 🟢 Monitor items are resolved or have a documented post-close remediation plan.

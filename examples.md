@@ -1,113 +1,110 @@
 # Examples: What Good Output Looks Like
 
+These examples demonstrate the specialist in action — showing how inputs map to structured deal screens and how edge cases are handled.
+
 ---
 
-## Example 1: Pursue
+## Example 1: Solid Deal Worth Pursuing
 
 **User Input:**
-> HVAC company in Phoenix metro. $2.1M revenue, $380K SDE. Asking $1.4M (3.7x SDE). Owner retiring — he's the sales guy, not the tech. 3 lead techs, 2 junior techs, 1 dispatcher. 60% residential, 40% light commercial. 340 active maintenance agreements. Fleet: 5 vans, 2019–2022. No single customer over 8% of revenue.
+> HVAC company in Phoenix metro. $2.1M revenue, $380K SDE. Asking $1.4M (3.7x SDE). Owner has been there 22 years and is retiring — he's the sales guy, not the tech. 3 lead techs, 2 junior techs, 1 dispatcher/admin. 60% residential, 40% light commercial. About 340 active maintenance agreements. Fleet is 5 vans, all 2019–2022. No single customer over 8% of revenue.
 
 **Analyst Output:**
 
 **Deal Summary**
-- HVAC residential/commercial split in high-demand Sun Belt market
-- Retiring owner with clean motivation and low drama risk
+- HVAC residential/commercial split in a high-demand Sun Belt market
+- 22-year-old business with retiring owner — clean motivation, low drama risk
 - 340 active maintenance agreements = strong recurring revenue floor
-- Mature tech team with lead-level depth reduces owner-dependency
-- Recent fleet, minimal near-term capex pressure
+- Mature tech team with lead-level depth reduces owner-dependency on operations
+- Fleet is recent, minimal capex pressure near-term
 
 **Initial Verdict:** `PURSUE`
-> Multiple is fair-to-favorable. Recurring revenue base and team depth make this acquirable without the buyer needing to be a technician.
+> Multiple is fair-to-favorable for this profile. Recurring revenue base and team depth make this acquirable without the buyer needing to be a technician.
 
 **Strengths**
-- 340 maintenance contracts suggest $170K–$250K in recurring annual revenue
+- Maintenance agreement base (340 contracts) suggests ~$170K–$250K in recurring/sticky revenue annually at standard pricing
 - No customer concentration — top account at 8% is clean
 - Lead tech layer means operations don't collapse if owner exits
-- Phoenix market fundamentals strong: population growth, aging housing stock, extreme heat demand
+- Phoenix market fundamentals are strong (population growth + aging housing stock + extreme heat demand)
 - Fleet condition minimizes Year 1 capital surprise
 
 **Risk Flags**
-- 🟡 MODERATE — Owner is the sales relationship. Who closes new commercial accounts post-transition?
-- 🟡 MODERATE — 22-year tenure means tribal knowledge risk. Document extraction critical during LOI-to-close.
-- 🟢 LOW — Commercial accounts should be reviewed for contract status before close.
-
-**PE Competitive Context**
-$380K SDE with a maintenance agreement base in a Sun Belt market is exactly what Apex Service Partners targets. If this business hits their radar, you will face a process within 2 weeks of confirming 3-year financials. Do not let this sit in a process.
+- 🟡 MODERATE — Owner is the sales relationship. Who closes new commercial accounts post-transition? Validate whether existing commercial clients have contracts or are relationship-dependent.
+- 🟡 MODERATE — 22-year tenure means owner likely holds tribal knowledge (vendor relationships, pricing logic, client history). Document extraction critical during LOI-to-close period.
+- 🟢 LOW — Residential/commercial split is healthy but commercial accounts should be reviewed for contract status before close.
 
 **Data Gaps**
-- 3-year P&L to confirm SDE consistency
-- Maintenance agreement terms — auto-renew or manual?
-- Owner's willingness to stay 6–12 months post-close
+- Last 3 years P&L to confirm SDE consistency (not a one-year spike)
+- Maintenance agreement terms — auto-renew or manual renewal?
+- Owner's willingness to stay on 6–12 months post-close for transition
 
-**Next Step**
-Send LOI with 30-day exclusivity. Get 3-year financials and maintenance agreement roster during diligence. Engage QoE firm if SDE holds at $380K+.
+**Next Step Recommendation**
+Send an LOI with a 30-day exclusivity window. Prioritize getting 3-year financials and the maintenance agreement contract list during diligence. Engage a QoE firm if SDE holds at $380K+ on review.
 
 ---
 
 ## Example 2: Proceed With Caution
 
 **User Input:**
-> Fire sprinkler inspection company, Midwest. $900K revenue, owner says EBITDA is "around $200K." 1 inspector + owner who does most inspections himself. Commercial buildings — restaurants, offices, multifamily. He's 58, wants out in a year. Asking $750K.
+> Fire sprinkler inspection company, Midwest. $900K revenue, owner says EBITDA is "around $200K." 1 inspector + owner who does most inspections himself. They do commercial buildings — restaurants, offices, some multifamily. He's 58 and wants out in the next year. Asking $750K.
 
 **Analyst Output:**
 
 **Deal Summary**
 - Fire sprinkler inspection business with heavy owner-operator dependency
-- 2-person technical operation — owner IS the primary inspector
-- Revenue is real and recurring (compliance-driven), but the business IS the owner
-- $750K on ~$200K EBITDA = 3.75x — aggressive given staffing risk
-- Motivated seller with 1-year window creates negotiating leverage
+- Single inspector + owner = 2-person technical operation
+- Revenue is real and recurring (compliance-driven inspections), but the business IS the owner
+- Asking price of $750K on ~$200K EBITDA = 3.75x — aggressive given staffing risk
+- Motivated seller with a 1-year exit window (creates negotiating leverage)
 
 **Initial Verdict:** `PROCEED WITH CAUTION`
-> The recurring compliance revenue is valuable. The owner-dependency is a near-deal-killer at this price. This can work — but only with the right structure.
+> The recurring compliance revenue is valuable. The owner-dependency is a near-deal-killer at this price. This can work — but only with the right deal structure.
 
 **Strengths**
-- Inspection revenue is sticky: compliance is mandated, not optional
-- AHJ relationships and certifications are hard to replicate quickly — a real moat
+- Inspection revenue is sticky: compliance is mandated, not optional — clients don't churn based on price
+- Commercial client base means larger contracts and less volume headache
+- AHJ relationships and certifications are hard to replicate quickly (moat)
 - Motivated seller = flexibility on deal terms
 
 **Risk Flags**
-- 🔴 CRITICAL — Owner IS the inspector. One injury or resignation ends revenue. Validate whether a replacement can be hired before close.
-- 🔴 CRITICAL — EBITDA is self-reported as "around $200K." Needs a real QoE. In a 2-person operation, add-backs are often inflated.
-- 🟡 MODERATE — Are client contracts formal agreements or handshake relationships?
-- 🟡 MODERATE — 3.75x is only fair if revenue is contractually locked and a second inspector is in place or hirable.
-
-**PE Competitive Context**
-Not on PE radar. Sub-$400K EBITDA with heavy owner-dependency is not a tuck-in candidate. Operator-buyer has a clear field — but that means no competitive pressure to rush. Use the time to negotiate structure carefully.
+- 🔴 CRITICAL — Owner IS the inspector. If he exits, the business has 1 certified inspector. One injury, resignation, or illness ends revenue. Validate whether a buyer can hire and train a replacement before close.
+- 🔴 CRITICAL — EBITDA is self-reported as "around $200K." This needs a real QoE. In a 2-person operation, owner add-backs are often inflated.
+- 🟡 MODERATE — Client contracts: are these formal agreements or handshake relationships? If clients follow the owner's reputation, post-close churn is a real risk.
+- 🟡 MODERATE — $750K on a 2-person operation with this dependency is 3.75x — fair only if the revenue base is contractually locked and a qualified second inspector is in place or hirable.
 
 **Data Gaps**
-- NICET certification levels of all inspectors
+- Certified inspector headcount and certification types (NICET levels)
 - Client contract terms and renewal history
-- Actual 3-year P&L
-- Whether owner is open to a forgivable seller note tied to client retention post-close
+- Actual 3-year P&L (not self-reported EBITDA)
+- Whether owner is open to a forgivable seller note tied to client retention post-close (the SBA-compliant alternative to a traditional earnout)
 
-**Next Step**
-Do NOT move to LOI at $750K. Propose a forgivable seller note covering 25–30% of purchase price, forgiven contingent on 12-month revenue retention. Get the client contract list before committing to anything.
+**Next Step Recommendation**
+Do NOT move to LOI at $750K yet. Have a direct conversation about deal structure — propose a seller note covering 25–30% of purchase price contingent on 12-month revenue retention. This protects you if the owner's relationships don't transfer. Get the client contract list before committing to anything.
 
 ---
 
-## Example 3: Incomplete Input
+## Example 3: Handling Incomplete Input
 
 **User Input:**
 > There's an HVAC company near me doing about $3M. The owner wants to retire. Asking $2.5M. What do you think?
 
 **Analyst Output:**
 
-I don't have enough to give you a useful verdict. Here's what I need:
+I don't have enough to give you a useful verdict. Here's what I need before I can assess this:
 
 **Missing — Critical:**
 - EBITDA or SDE (asking price means nothing without knowing what it's on)
-- Owner's role: is he a tech, salesperson, or manager?
+- Owner's role: is he a tech, salesperson, or manager? Does the business run without him?
 - Team size and structure
 
 **Missing — Important:**
 - Revenue mix (residential vs. commercial, service vs. install, recurring vs. project)
 - Customer concentration
-- Number of active service agreements
+- Number of active service agreements (if any)
 - Fleet condition
 
 **What I can tell you right now:**
-$2.5M on $3M revenue = ~0.83x revenue multiple. That's only reasonable if EBITDA is $500K–$700K+ with real recurring revenue. If EBITDA is $200K, the price is dramatically off-market.
+$2.5M on $3M revenue implies a ~0.83x revenue multiple. That's only reasonable if EBITDA is in the $500K–$700K+ range and the business has real recurring revenue. If EBITDA is $200K, the price is dramatically off-market.
 
 **Ask the broker or seller for:**
 1. Last 2–3 years P&L
@@ -118,42 +115,41 @@ Come back with that and I'll give you a full deal screen.
 
 ---
 
-## Example 4: Pass
+## Example 4: A Clear Pass
 
 **User Input:**
-> HVAC company in suburban Ohio. $1.1M revenue, owner says SDE is $280K. Asking $1.4M (5x SDE). Owner has been there 31 years — he does all commercial sales, all vendor ordering, and still runs service calls when short-staffed. 2 techs (both junior, under 2 years tenure), 1 part-time admin. 70% install, 30% service. No maintenance agreements. Top client is a property management company — 38% of revenue, 20-year personal relationship with the owner.
+> HVAC company in suburban Ohio. $1.1M revenue, owner says SDE is $280K. Asking $1.4M (5x SDE). Owner has been there 31 years — he does all the commercial sales, all the vendor ordering, and still runs service calls when they're short-staffed. 2 techs (both junior, under 2 years tenure), 1 part-time office admin. 70% install, 30% service. No maintenance agreements. Top client is a property management company that accounts for 38% of revenue — owner has known them personally for 20 years.
 
 **Analyst Output:**
 
 **Deal Summary**
-- Owner-operated HVAC business, 31 years in market
-- Install-dominant with no recurring agreement base
-- Owner is the business: sales, operations, vendor relationships, field backup
-- 38% customer concentration with no formal contract — structural risk
-- 5x SDE with no recurring revenue to justify the premium
+- Owner-operated HVAC business, 31 years in market, suburban Ohio
+- Revenue is install-dominant with no recurring agreement base
+- Owner is the business: sales, operations, vendor relationships, and field backup
+- Single client concentration at 38% is a structural risk regardless of relationship tenure
+- Asking price of 5x SDE is aggressive with no recurring revenue to justify the premium
 
 **Initial Verdict:** `PASS`
-> Three independent deal-killers. Any one alone warrants significant restructuring. Together, they describe a business that likely cannot be transferred — only operated by this specific owner until he stops.
+> This deal has three independent deal-killers. Any one of them alone would warrant a significant price reduction and structural protections. Together, they describe a business that likely cannot be transferred — only operated by this specific owner until he stops.
 
 **Why This Is a Pass, Not a Negotiate**
 
 🔴 **Deal-Killer 1 — Owner IS the Business**
-31 years of personal relationships and tribal knowledge. No #2. No lead tech. No manager. When he exits, the operational layer exits with him. A 12-month transition agreement cannot replicate 31 years of customer trust or technician pipeline.
+31 years of personal relationships, tribal knowledge, and informal operational coverage. There is no #2. There is no lead tech. There is no manager. When the owner exits, the operational layer of this business exits with him. A 6–12 month transition agreement cannot rebuild 31 years of customer trust or technician pipeline. This is not an owner-dependency problem that structure fixes — it's a business that doesn't exist without its founder.
 
-🔴 **Deal-Killer 2 — 38% Customer Concentration, No Contract**
-$418K of $1.1M revenue follows a personal relationship. A single personnel change at that property management company puts 38% of revenue at immediate risk. On a 5x deal, losing that client wipes out any upside in Year 1.
+🔴 **Deal-Killer 2 — Customer Concentration at 38%, No Contract**
+The top client represents $418K of $1.1M revenue. If that relationship was built on 20 years of personal trust between the owner and the property manager, it follows the owner — not the entity. There is no indication of a formal service contract. A single personnel change at that property management company, or any friction during transition, puts 38% of revenue at immediate risk. On a 5x deal, losing that client wipes out any upside in the first year.
 
 🔴 **Deal-Killer 3 — No Recurring Revenue Base**
-70% install means this business re-earns revenue from scratch every year. The DSCR math on a $1.26M SBA loan at 7% over 10 years requires ~$179K in annual debt service. On $280K SDE with no recurring floor, one slow install season puts you below threshold.
-
-**PE Competitive Context**
-Not on PE radar. Owner-dependent, install-heavy, sub-$300K SDE, no recurring revenue. The operator-buyer is the only buyer — that's not leverage, it's a signal about the asset quality.
+70% install revenue means this business re-earns its revenue from scratch every year. There are no maintenance agreements, no inspection contracts, no membership program. Nothing to underwrite. SBA lenders will struggle to finance this at 5x because the recurring cash flow that supports debt service is not there. The DSCR math requires $179K+ in annual debt service coverage on a $1.26M loan at 7% over 10 years. On $280K SDE with no recurring floor, one slow install season puts you below threshold.
 
 **What Would Have to Be True to Revisit**
-- Asking price reduced to 2.5x–2.75x SDE (~$700K–$770K)
-- Seller willing to stay 18–24 months in a genuine transition role
-- Signed service agreement with the top client — not a handshake — before LOI
-- Evidence of at least one junior tech promotable to lead within 6 months
+- Asking price reduced to 2.5x–2.75x SDE (~$700K–$770K) to reflect owner-dependent, no-recurring-revenue profile
+- Seller willing to stay 18–24 months post-close in a genuine sales and relationship handover role
+- Personal introduction and contract formalization with the top property management client — signed agreement, not a handshake — before close
+- Evidence of at least one junior tech being promotable to lead within 6 months
 
-**Next Step**
-Do not issue an LOI at any price until the customer concentration risk is resolved with a signed contract. If the seller won't formalize the top client relationship pre-LOI, the answer is no. If he will, revisit at $700K with 20% escrow holdback tied to 12-month revenue retention from the top 3 clients.
+Even then, this would be a high-risk acquisition for an operator-buyer without prior trades experience. The business requires an owner who can immediately replace the seller's operational and sales role on day one.
+
+**Next Step Recommendation**
+Do not issue an LOI at any price until the customer concentration risk is resolved with a signed contract. If the seller is unwilling to formalize the top client relationship before going to LOI, the answer is no. If he is willing, revisit at $700K with a 20% escrow holdback tied to 12-month revenue retention from the top 3 clients.

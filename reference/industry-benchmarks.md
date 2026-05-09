@@ -1,129 +1,122 @@
+# Industry Benchmarks: HVAC & Fire Safety SMBs
+
 > **Last Updated:** May 2026
-> **Refresh Cadence:** Review semi-annually. SBA rate data changes monthly — verify before any financing scenario.
+> **Refresh Cadence:** Annually minimum. Valuation multiples shift with consolidation cycle activity. For deeper valuation methodology and ARR/MRR separate valuation layer, see `reference/valuation-methodology.md`.
 
-Industry benchmarks for HVAC and Fire & Life Safety (F&LS) businesses in the $500K–$5M revenue range. All figures reflect operator-buyer (micro-PE) transaction context, not strategic acquirer premiums.
+Reference data for calibrating deal analysis. These benchmarks apply to operator-owned businesses in the $500K–$5M revenue range. Numbers reflect general industry standards and may vary by region, business mix, and market conditions.
 
 ---
 
-## HVAC Business Benchmarks
+## HVAC Industry Benchmarks
 
 ### Revenue & Profitability
-| Metric | Strong | Average | Weak |
-|--------|--------|---------|------|
-| Gross margin | 45–55% | 35–45% | <35% |
-| SDE/EBITDA margin | 20–28% | 12–20% | <12% |
-| Revenue per technician | $250K–$350K | $175K–$250K | <$175K |
-| Revenue per truck | $220K–$300K | $150K–$220K | <$150K |
+- **Gross margin (residential service):** 45–60%
+- **Gross margin (residential install):** 30–45%
+- **Gross margin (commercial service):** 40–55%
+- **Gross margin (commercial install):** 25–40%
+- **EBITDA margin (well-run SMB):** 15–25%
+- **SDE margin (owner-operated, small business):** 20–35% (includes owner comp add-back)
 
-### Recurring Revenue
-| Metric | Strong | Average | Weak |
-|--------|--------|---------|------|
-| Service agreement attach rate | >40% of install customers | 20–40% | <20% |
-| Maintenance agreements (active) | >300 | 100–300 | <100 |
-| % revenue from service/maintenance | >40% | 20–40% | <20% |
-| Average maintenance contract value | $200–$350/yr residential | — | — |
+### Revenue Mix (Healthy Split)
+- Service/maintenance: 40–60% of revenue
+- Installation: 30–50% of revenue
+- Maintenance agreements: 15–30% of revenue (subset of service)
 
-### Revenue Mix Benchmarks
-- Healthy residential/commercial split: 50–70% residential, 30–50% commercial
-- Install vs. service: sub-60% install is preferred for valuation; install-heavy businesses trade at discount
-- Seasonal cash flow: expect Q2/Q3 peak (cooling), Q4/Q1 trough — normalize EBITDA across full year
+### Maintenance Agreement Economics
+- Average residential maintenance agreement: $150–$350/year
+- Average commercial maintenance agreement: $500–$3,000+/year depending on unit count
+- Attach rate (% of service customers on agreement): 25–40% is average; 50%+ is strong
+- Renewal rate: 75–85% is industry norm; below 65% signals service quality issues
 
-### Fleet & Equipment
-- Average replacement cycle: 7–10 years per van
-- Current new van cost (2025): $55K–$80K fully equipped
-- Fleet capex budget benchmark: 8–12% of revenue annually (normalized, not actual)
+### Technician Productivity
+- Revenue per technician (field tech): $175,000–$350,000/year
+- Billable hours target: 1,400–1,600/year per tech
+- Callbacks/rework rate: <5% is good; >10% is a quality signal
+
+### Fleet & Asset Costs
+- Van cost (new, fully equipped): $45,000–$80,000
+- Annual maintenance cost per van: $3,000–$6,000
+- Replacement interval: 150,000–200,000 miles or 7–10 years
+
+### Valuation Multiples (Operator-Buyer Market, 2025–2026)
+- <$1M revenue: **1.99x–3.25x SDE** — owner-dependent; limited buyer pool
+- $1M–$2.5M revenue: **2.75x–3.75x SDE** — core operator-buyer range
+- $2.5M–$5M revenue: **3.25x–4.5x SDE/EBITDA** — beginning of PE attention
+- $5M+ revenue: **4.5x–8x EBITDA** — PE platforms active; operator-buyer competes on terms
+- Revenue multiple: **0.3x–1.4x**, median ~0.9x — use as sanity check only, not primary method
+- **Recurring revenue premium:** Businesses with >40% revenue from service agreements command 0.5x–1.0x higher multiples than install-heavy peers
+
+*Note: Multiples have increased ~20% from pre-pandemic levels. See `reference/valuation-methodology.md` for the full tiered framework and ARR/MRR separate valuation layer.*
 
 ---
 
-## Fire & Life Safety (F&LS) Benchmarks
+## Fire & Life Safety Industry Benchmarks
 
 ### Revenue & Profitability
-| Metric | Strong | Average | Weak |
-|--------|--------|---------|------|
-| Gross margin | 50–65% | 40–50% | <40% |
-| EBITDA margin | 22–32% | 14–22% | <14% |
-| Revenue per inspector | $200K–$320K | $140K–$200K | <$140K |
+- **Gross margin (inspection services):** 55–70%
+- **Gross margin (installation — sprinkler, alarm, suppression):** 30–45%
+- **Gross margin (monitoring — if applicable):** 70–85%
+- **EBITDA margin (well-run SMB):** 15–28%
 
-### Inspection Contract Quality
-| Metric | Strong | Average | Weak |
-|--------|--------|---------|------|
-| Contract renewal rate | >90% | 75–90% | <75% |
-| Average contract length | 3–5 years | 1–2 years | Month-to-month |
-| % revenue under contract | >70% | 50–70% | <50% |
-| Commercial account concentration | No single account >15% | One account 15–25% | Any account >30% |
+### Revenue Mix (Healthy Split)
+- Inspection/testing/maintenance: 40–60% of revenue
+- Installation (new construction or retrofits): 30–50% of revenue
+- Monitoring (if offered): 5–20% (high-value recurring)
 
-### Revenue Categories (F&LS)
-1. **Inspection & Testing** — highest multiple; compliance-mandated, recurring, sticky
-2. **Monitoring** — SaaS-like recurring; valued at 2.5–3.5x ARR separately
-3. **Service & Repair** — reactive; variable but high-margin
-4. **Installation** — project-based; lowest multiple; high execution risk
+### Inspection Contract Economics
+- Average commercial inspection contract: $500–$5,000/year depending on system type and building size
+- Contract length: 1-year auto-renew is standard; multi-year contracts command a premium valuation
+- Renewal rate: 85–92% is expected (compliance-driven stickiness); below 80% is a red flag
+- Client-to-inspector ratio: ~80–150 accounts per inspector is manageable
 
-### Certification Standards (F&LS)
-- NICET (National Institute for Certification in Engineering Technologies) is the gold standard
-- NICET Level II or III inspectors: market premium, harder to replace
-- Loss of a NICET-certified inspector can void AHJ acceptance of inspection reports — operational risk
-- Value a NICET III inspector as a key-person asset in deal structure
+### Certification Standards
+- **NICET (National Institute for Certification in Engineering Technologies):** Primary credential for F&LS inspectors
+  - NICET Level I–II: Entry-level field inspection
+  - NICET Level III–IV: Senior, supervisory, design roles
+- **State licensing:** Varies significantly; verify locally. Many states require licensed contractor for installation.
+- **AHJ relationships:** Intangible but material. Established relationship with local fire marshal's office speeds permit/inspection timelines — this is a soft asset in the deal.
 
----
+### Valuation Multiples (Operator-Buyer Market, 2025–2026)
+- <$1M revenue, project-heavy: **3x–4.5x EBITDA**
+- <$1M revenue, inspection-heavy: **4.5x–6x EBITDA** — compliance revenue stickiness premium
+- $1M–$5M revenue, mixed: **4x–6x EBITDA**
+- $1M–$5M revenue, strong ITM (inspection/testing/maintenance): **5.5x–8x EBITDA**
+- $5M+ revenue, PE-ready: **8x–12x+ EBITDA** — PE-dominated; operator-buyer unlikely to compete on price
+- Monitoring-heavy RMR businesses: **35x–45x monthly MRR** — separate valuation model entirely
 
-## SBA 7(a) Financing Data — 2025–2026
-
-> **Note:** SBA rates are variable. The figures below reflect Q1 2026 market conditions. Verify current WSJ Prime Rate before running DSCR scenarios.
-
-### Current Rate Environment (Q1 2026)
-- SBA 7(a) rate: Prime + 2.75% (loans >$50K, terms >7 years)
-- WSJ Prime Rate: ~7.5% (verify at time of use)
-- Effective rate range: ~10.0–10.5% (fixed or variable)
-- Max loan term: 10 years (business acquisition, no real estate)
-- Max loan amount: $5M
-
-### SBA 7(a) Eligibility — Trades Businesses
-- NAICS codes typically eligible: 238220 (plumbing, HVAC), 238290 (fire suppression)
-- Seller note allowed: up to 30% of purchase price, must be on full standby for 24 months (SOP 50 10 8)
-- Equity injection required: minimum 10% buyer equity
-- Seller cannot retain >49% ownership post-close under SBA rules
-
-### DSCR Quick Reference
-Lenders typically require 1.25x minimum DSCR (debt service coverage ratio)
-
-**Formula:** SDE (or EBITDA) ÷ Annual Debt Service ≥ 1.25x
-
-| Loan Amount | 10-yr at 10.25% | Required SDE (1.25x) |
-|-------------|-----------------|----------------------|
-| $500K | ~$66K/yr | ~$83K |
-| $750K | ~$99K/yr | ~$124K |
-| $1.0M | ~$132K/yr | ~$165K |
-| $1.25M | ~$165K/yr | ~$206K |
-| $1.5M | ~$198K/yr | ~$248K |
-| $2.0M | ~$264K/yr | ~$330K |
-
-> These are approximate. Run exact figures with an SBA lender before any LOI.
-
-### SBA Seller Note Rules (SOP 50 10 8)
-- Seller note on full standby for 24 months post-close (no payments to seller)
-- After standby: payments allowed if DSCR remains above 1.15x
-- Seller note counts toward equity injection only if on full standby
-- Performance-based seller note (the SBA-compliant earnout) structured as adjustment to purchase price, not contingent compensation — see deal-structure-playbook.md
+*F&LS consistently commands a premium over HVAC because inspection revenue is mandated by law. See `reference/valuation-methodology.md` for the full methodology including the ARR/MRR separate valuation layer.*
 
 ---
 
-## Transaction Multiples — 2025–2026
+## SBA 7(a) Financing Reference (Acquisition Context)
 
-### HVAC
-| Business Profile | Typical SDE Multiple | Notes |
-|-----------------|---------------------|-------|
-| Strong recurring, clean team, Sun Belt | 3.5–4.5x | Top of market for operator-buyers |
-| Average recurring, some owner-dep | 2.5–3.5x | Most common range |
-| Install-heavy, no agreements | 1.5–2.5x | Discount for transition risk |
-| Owner IS the business | 1.0–2.0x | Risk adjusted; often structured deal only |
+- **Max loan amount:** $5 million
+- **Typical down payment:** 10% of purchase price (minimum); lenders often prefer 15–20%
+- **Loan term:** Up to 10 years for business acquisitions (up to 25 years if real estate included)
+- **Interest rate:** Prime + 2.75% for loans >$350K (variable); currently **~7–10% range** as of 2025–2026
+- **DSCR requirement:** SBA minimum 1.15x; most quality lenders target **1.25–1.30x**
+- **Seller note (equity injection):** Under SOP 50 10 8 (June 2025), a seller note used toward the 10% equity injection must be on **full standby for the entire loan term** and represent **no more than 50%** of the required injection
+- **Earnouts:** Prohibited under SBA — purchase price must be fixed at closing. Use forgivable seller notes as the compliant alternative.
+- **Eligibility for HVAC/F&LS:** Both sectors are SBA-eligible
 
-### Fire & Life Safety
-| Business Profile | Typical EBITDA Multiple | Notes |
-|-----------------|------------------------|-------|
-| Inspection-heavy, contracted, NICET-certified team | 4.5–6.0x | Strong recurring justifies premium |
-| Mixed inspection/install, some contracts | 3.5–4.5x | Mid-market |
-| Install-heavy or monitoring-only | 2.5–3.5x | Depends on contract quality |
-| Owner-inspector, 1–2 people | 2.0–3.0x | Structure-dependent |
+*For full SBA deal structure guidance including the two-note strategy and forgivable note structure, see `reference/deal-structure-playbook.md`.*
 
-### PE vs. Operator-Buyer Premium
-PE platforms (Apex, Pye-Barker, Sciens) typically pay 1–2 turns higher than operator-buyers on EBITDA — justified by platform value, cross-sell, and shared back-office. An operator-buyer competing against PE must compensate with speed, certainty of close, and seller-fit (owner wanting their company to stay local vs. become part of a roll-up).
+**SBA DSCR Calculation:**
+> DSCR = Annual SDE ÷ Annual Debt Service
+> Example: $350,000 SDE ÷ $280,000 debt service = 1.25x (minimum threshold)
+
+---
+
+## Quick Sanity Checks
+
+Use these to gut-check whether a deal is in range before deep analysis:
+
+| Purchase Price | Minimum SDE for 1.25x DSCR (10yr, ~7% rate) | Required SDE Margin on $1M Revenue |
+|----------------|----------------------------------------------|-------------------------------------|
+| $750,000 | ~$95,000 | ~9.5% (tight) |
+| $1,000,000 | ~$128,000 | ~12.8% |
+| $1,500,000 | ~$192,000 | ~19.2% |
+| $2,000,000 | ~$255,000 | ~25.5% |
+| $3,000,000 | ~$382,000 | ~38.2% |
+
+*Assumes 10% buyer down payment, 10-year term, ~7% interest rate, and $1M revenue base for margin calculation.*
