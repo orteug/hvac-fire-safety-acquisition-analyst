@@ -33,7 +33,7 @@ Sector:       [HVAC | Fire & Life Safety | HVAC & F&LS]
 Geography:    [City, State]
 Date:         [Today's date]
 Version:      1.0 — Preliminary Screen
-Analyst:      Ariel Ortiz — MeInc HQ
+Analyst:      Ariel Ortiz
 
 VERDICT: [PURSUE | PROCEED WITH CAUTION | PASS]
 ```
