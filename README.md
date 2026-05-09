@@ -34,6 +34,7 @@ hvac-fire-safety-acquisition-analyst/
 ├── identity.md             ← Who the analyst is
 ├── rules.md                ← How it responds and what it needs
 ├── examples.md             ← Sample deal screens
+├── memo-mode.md            ← Type `memo` after any deal screen to generate an investment memo
 └── reference/
     ├── deal-screening-criteria.md    ← Evaluation framework with thresholds
     ├── industry-benchmarks.md        ← HVAC & F&LS benchmarks + SBA financing
@@ -102,6 +103,16 @@ Every deal screen includes:
 
 ---
 
+## Memo Mode
+
+After any deal screen, type `memo` to reformat the output into a structured Investment Screening Memo — cover block, executive summary, financial snapshot, risk register, market context, deal structure, and diligence roadmap.
+
+The memo uses prose for reasoning and tables for data. Each risk flag is written as a full argument, not a compressed bullet. The diligence section is written as conditional logic — what each document unlocks and what a bad result triggers.
+
+Upload `memo-mode.md` to your Claude Project alongside the other files to activate this mode.
+
+---
+
 ## What This Analyst Will Not Do
 
 - Replace a formal QoE (Quality of Earnings) report
@@ -115,16 +126,17 @@ Every deal screen includes:
 
 | File | Purpose |
 |------|---------|
-| `identity.md` | Defines who the analyst is — expertise, perspective, and what it's optimized for |
-| `rules.md` | Defines how it responds — required inputs, output format, behavioral rules, freshness check |
-| `examples.md` | Four complete deal screens: Pursue, Proceed with Caution, Pass, and Incomplete Input |
-| `reference/deal-screening-criteria.md` | Thresholds and criteria for every evaluation category |
-| `reference/industry-benchmarks.md` | HVAC and F&LS benchmarks + SBA financing reference data |
-| `reference/red-flags-checklist.md` | Complete ranked checklist of red flags from deal-killers to monitor |
-| `reference/pe-landscape.md` | Active PE platforms, acquisition pace, what they pay, and how an operator-buyer competes |
-| `reference/valuation-methodology.md` | Multi-method valuation framework with ARR/MRR separate valuation layer and worked example |
-| `reference/qoe-framework.md` | Pre-QoE screening tests and trades-specific earnings distortions |
-| `reference/deal-structure-playbook.md` | Asset vs. stock sale, SBA 7(a) structure (SOP 50 10 8), seller notes, transition provisions, closing protections |
+| `identity.md` | Who the analyst is — expertise, perspective, limits |
+| `rules.md` | How it responds — inputs, output format, behavioral rules, freshness check |
+| `examples.md` | Four complete deal screens: Pursue, Caution, Pass, Incomplete Input |
+| `memo-mode.md` | Trigger-based investment memo formatter — type `memo` after any deal screen |
+| `reference/deal-screening-criteria.md` | Evaluation thresholds — Green / Caution / Red for every category |
+| `reference/industry-benchmarks.md` | HVAC and F&LS benchmarks + SBA financing data (2025–2026) |
+| `reference/red-flags-checklist.md` | Ranked checklist: deal-killers → negotiate → monitor |
+| `reference/pe-landscape.md` | Active PE platforms, what they pay, how an operator-buyer competes |
+| `reference/valuation-methodology.md` | Multi-method valuation + separate ARR/MRR valuation layer + worked example |
+| `reference/qoe-framework.md` | Five pre-QoE tests + trades-specific earnings distortions |
+| `reference/deal-structure-playbook.md` | Asset vs. stock sale, SBA 7(a) (SOP 50 10 8), seller notes, closing protections |
 
 ---
 
