@@ -130,7 +130,7 @@ Every deal screen includes:
 
 ## Built By
 
-Ariel Ortiz — Founder-Operator, MeInc HQ  
+Ariel Ortiz — Founder-Operator  
 Acquisition thesis: Micro-PE in Fire & Life Safety and HVAC  
 [arielortiz.me](https://arielortiz.me) · [LinkedIn](https://linkedin.com/in/arielortiz)
 
