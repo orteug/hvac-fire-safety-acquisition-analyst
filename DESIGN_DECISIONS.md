@@ -98,6 +98,29 @@ v1 mixed these layers throughout. v2 makes each layer explicit.
 
 ---
 
+## Decision 6: Add `_guardrails/` as a Structural Safety Layer (v3)
+
+**v2 behavior:** Safety guidance existed as prose in `rules.md` — disclaimers, professional escalation suggestions, input quality notes. All of it could be overridden by context, forgotten under a heavy brief, or softened by the model's tendency to be helpful.
+
+**v3 change:**
+- `_guardrails/shared/` — four files always loaded, applying to every mode, every user
+- `_guardrails/domain/` — domain-specific escalation triggers and input flags
+- Routing Step 0 added: load guardrails before anything else
+- Screen output gains three structural slots: Input Integrity Flag, Confidence Level, Professional Required block, Disclaimer Block
+
+**ICM source:** The Layer 3 stability principle. The paper argues that stable constraints belong in dedicated L3 files — not embedded in prose alongside behavioral rules. Safety posture that lives in `rules.md` is mixed with routing guidance, tone instructions, and behavioral defaults. Under context pressure (a long brief, a complex deal) those prose rules are the first things that get deprioritized. Structural placement in `_guardrails/` makes them load-order enforced.
+
+**Why shared/ + domain/ split:** Safety requirements that are universal (disclaimer language, confidence floor logic, escalation triggers for LOI and SDE verification) belong in `shared/` so they can be inherited by any repo without modification. Domain-specific triggers (NICET certification for F&LS, license transfer for HVAC) belong in `domain/` so they don't pollute repos where they don't apply.
+
+**Audience shift (v3 specific):** v1 and v2 were calibrated for a sophisticated operator-buyer. v3 targets any user — including someone doing their first acquisition who doesn't know what a QoE is. The guardrails are calibrated for the least-experienced user who might plausibly use this tool, not the most experienced. This means:
+- Confidence floor is more conservative: LOW confidence output is explicitly non-actionable
+- Escalation triggers fire earlier and more often
+- Disclaimer language is plain English, not legal boilerplate
+
+**What this does NOT do:** It does not make the tool safe for professional advice use. It makes the tool honest about what it is and clear about when a human professional is required.
+
+---
+
 ## What Didn't Change
 
 - `identity.md` — v1 was a clean L0. Character, expertise, perspective, limits. No operational logic embedded. No changes needed.

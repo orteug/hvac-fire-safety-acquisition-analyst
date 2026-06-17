@@ -1,5 +1,5 @@
 # HVAC & Fire Safety Acquisition Analyst
-### A Folder-Based AI Specialist for Claude Projects · v2.0
+### A Folder-Based AI Specialist for Claude Projects · v3.0
 
 > **Get a structured deal screen on any HVAC or Fire & Life Safety business — in under 5 minutes.**
 
@@ -33,31 +33,40 @@ Upload all files from this folder into your Claude Project's knowledge base:
 
 ```
 hvac-fire-safety-acquisition-analyst/
-├── README.md                   ← This file
-├── CHANGELOG.md                ← v1 → v2 diff
-├── DESIGN_DECISIONS.md         ← Why v2 is structured this way (ICM paper)
-├── identity.md                 ← L0: Who the analyst is
-├── routing.md                  ← L1: Mode triggers + deal type routing (read first)
-├── rules.md                    ← L3: Behavioral rules
-├── examples.md                 ← Sample deal screens
-├── _modes/
-│   ├── screen-mode.md          ← L2: Standard screen execution contract
-│   ├── deep-dive-mode.md       ← L2: Deep dive execution contract
-│   └── memo-mode.md            ← L2: Investment memo formatter (type "memo")
-├── reference/                  ← L3: Stable frameworks (timeless)
-│   ├── shared-criteria.md      ← Evaluation thresholds for both domains
-│   ├── hvac-criteria.md        ← HVAC-specific criteria
-│   ├── fls-criteria.md         ← F&LS-specific criteria
-│   ├── industry-benchmarks.md  ← Structural benchmarks (stable)
-│   ├── red-flags-checklist.md  ← Ranked flags checklist
-│   └── qoe-framework.md        ← Pre-QoE screening tests
-├── _market_data/               ← Quarterly refresh (time-sensitive)
-│   ├── pe-landscape.md         ← Active PE platforms — check Last Updated date
-│   ├── valuation-methodology.md← Current multiples — check Last Updated date
-│   └── deal-structure-playbook.md ← SBA structure — check Last Updated date
-└── _deals/                     ← L4: Deal memory (update after each screen)
-    ├── _calibration_log.md     ← Screen outcomes tracker
-    └── _patterns.md            ← Cross-deal pattern tracker
+├── README.md                        ← This file
+├── CHANGELOG.md                     ← v1 → v2 → v3 history
+├── DESIGN_DECISIONS.md              ← Every structural choice mapped to ICM paper
+├── identity.md                      ← L0: Who the analyst is
+├── routing.md                       ← L1: Mode triggers + deal type routing (read first)
+├── rules.md                         ← L3: Behavioral rules
+├── examples.md                      ← Sample deal screens
+├── _guardrails/                     ← L3: Safety layer — always loaded
+│   ├── shared/                      ← Portable across any repo
+│   │   ├── output-disclaimers.md    ← Required disclaimer blocks on every output
+│   │   ├── confidence-floor.md      ← Input threshold rules + confidence levels
+│   │   ├── escalation-triggers.md   ← Professional escalation gates
+│   │   └── adversarial-input-flags.md ← One-sided input detection
+│   └── domain/                      ← HVAC & F&LS specific
+│       ├── hvac-guardrails.md       ← HVAC escalation triggers + input flags
+│       └── fls-guardrails.md        ← F&LS escalation triggers + input flags
+├── _modes/                          ← L2: Per-mode task contracts
+│   ├── screen-mode.md               ← Standard screen execution
+│   ├── deep-dive-mode.md            ← Extended analysis
+│   └── memo-mode.md                 ← Investment memo formatter (type "memo")
+├── reference/                       ← L3: Stable frameworks (timeless)
+│   ├── shared-criteria.md           ← Evaluation thresholds for both domains
+│   ├── hvac-criteria.md             ← HVAC-specific criteria
+│   ├── fls-criteria.md              ← F&LS-specific criteria
+│   ├── industry-benchmarks.md       ← Structural benchmarks (stable)
+│   ├── red-flags-checklist.md       ← Ranked flags checklist
+│   └── qoe-framework.md             ← Pre-QoE screening tests
+├── _market_data/                    ← Quarterly refresh (time-sensitive)
+│   ├── pe-landscape.md              ← Active PE platforms — check Last Updated date
+│   ├── valuation-methodology.md     ← Current multiples — check Last Updated date
+│   └── deal-structure-playbook.md   ← SBA structure — check Last Updated date
+└── _deals/                          ← L4: Deal memory (update after each screen)
+    ├── _calibration_log.md          ← Screen outcomes tracker
+    └── _patterns.md                 ← Cross-deal pattern tracker
 ```
 
 > Upload each file individually, or zip the folder and upload the zip.
@@ -149,4 +158,5 @@ Acquisition thesis: Micro-PE in Fire & Life Safety and HVAC
 ---
 
 *v1 — May 2026: Initial release (Jeff van Clief Skool community — Weekly Comp #3: The Specialist)*  
-*v2 — June 2026: ICM architecture upgrade. See `CHANGELOG.md` and `DESIGN_DECISIONS.md`.*
+*v2 — June 2026: ICM architecture upgrade. See `CHANGELOG.md` and `DESIGN_DECISIONS.md`.*  
+*v3 — June 2026: Guardrails layer — generalized for any user. Shared + domain-specific safety files.*

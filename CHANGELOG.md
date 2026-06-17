@@ -1,5 +1,30 @@
 # Changelog
 
+## v3.0 — 2026-06-17 — Guardrails Layer
+
+Adds a structural safety layer for generalized (any-user) deployment. Every design decision documented in `DESIGN_DECISIONS.md` → Decision 6.
+
+### Added
+
+- `_guardrails/shared/output-disclaimers.md` — mandatory disclaimer blocks on every output; plain English, not legal boilerplate; verdict-specific additions (PURSUE / CAUTION / PASS)
+- `_guardrails/shared/confidence-floor.md` — input threshold rules; 🟢 HIGH / 🟡 MEDIUM / 🔴 LOW confidence levels; hard STOP when SDE and owner role are both absent
+- `_guardrails/shared/escalation-triggers.md` — `🔴 PROFESSIONAL REQUIRED` block for 8 trigger conditions (PURSUE verdict, price >$500K, LOI discussion, DSCR <1.5×, self-reported SDE, earnout/seller note mention, concentration >25%, sole license holder)
+- `_guardrails/shared/adversarial-input-flags.md` — `⚠️ INPUT INTEGRITY FLAG` for 15 broker/seller framing patterns across financial, operational, and deal structure categories
+- `_guardrails/domain/hvac-guardrails.md` — HVAC-specific triggers (license transfer, EPA 608, fleet records, seasonal cash model) and input flags
+- `_guardrails/domain/fls-guardrails.md` — F&LS-specific triggers (NICET certification, monitoring contracts, AHJ relationships, deficiency liability) and input flags
+
+### Changed
+
+- `routing.md` — Step 0 added: load all `_guardrails/shared/` files + domain guardrail before any analysis
+- `_modes/screen-mode.md` — output structure updated: Input Integrity Flag (section 0), confidence level after verdict (section 2), Professional Required block (section 9), Disclaimer Block (section 11, always)
+- `DESIGN_DECISIONS.md` — Decision 6 added: guardrails layer rationale mapped to ICM Layer 3 stability principle + audience shift from sophisticated operator-buyer to any user
+
+### Architecture note
+
+`_guardrails/shared/` is designed to be portable — it can be dropped into any Claude Projects repository with minimal modification. Domain-specific files in `_guardrails/domain/` contain only the additions relevant to HVAC and F&LS.
+
+---
+
 ## v2.0 — 2026-06-17 — ICM Architecture Upgrade
 
 This version applies the Interpretable Context Methodology (ICM) framework from Van Clief & McDermott (arXiv:2603.16021) to the folder architecture. Every structural change is documented in `DESIGN_DECISIONS.md` with its source concept from the paper.
